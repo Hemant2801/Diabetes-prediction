@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 #loading the saved model
-load_model = pickle.load(open('C:/Users/Hemant/jupyter_codes/ML Project 1/Diabetes detection/Trained_model.sav', 'rb'))
+load_model = pickle.load(open('Trained_model.sav', 'rb'))
 
 # creating a function for prediction
 def diabetes_prediction(input_data):
